@@ -38,7 +38,10 @@ end
 # Define your play method below
 def play(board)
   loop do
+      counter = 0
+      counter += 1
       turn(board)
+      if counter == 9
     end
   end
 end
